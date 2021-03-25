@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* ---------------------------------------------------
+                    INDEX-NAVBAR STYLE
+----------------------------------------------------- */
+.navbar div a i{
+    font-size: calc(.75em + 1vmax);
+    color: #E9E7DA;
+    padding-left: calc(1em + 1vmax);
+    padding-bottom: 0px;
+}
+.navbar div a i:hover{
+    background: transparent;
+    color: #CDA34F !important;
+}
+.navbar div ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #E9E7DA;
+    display: block;
+    padding: 0px calc(.5em + 1vmax) !important;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: calc(.25em + .75vmax);
+    
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background: transparent  !important;
+    color: #CDA34F !important;
+}
+.navbar-collapse{
+    padding: 0px;
+}
+.header-area{
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    top: 0;
+    padding: calc(1em + 1vmax) 0;
+}
+
+/* ---------------------------------------------------
+                    INDEX-CONTENT STYLE
+----------------------------------------------------- */
+.single-slide{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.single-slide::before{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .6;
+}
+.slide-content h1{
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #E9E7DA;
+    margin-bottom: calc(.25em + .75vmax);
+    font-size: calc(3em + 3vmax);
+    font-weight: 700;
+    text-align: center;
+}
+.slide-content p{
+    font-size: calc(.25em + 1vmax);
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+    color: hsla(0,0%,100%,.7);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: calc(5em + 50vmax);
+    margin-bottom: calc(1em + 1vmax);
+}
+.preheading{
+    color: hsla(0,0%,100%,.7);
+    font-size: calc(.2em + .75vmax) !important;
+    letter-spacing: .1em;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-align: center!important;
+}
+.text-primary {
+    color: #CDA34F !important;
+}
+.searchMenu{
+    background-color: transparent !important;
+    font-size:  .75vmax; 
+    font-weight: bold;
+    line-height: calc(.5em + .75vmax);
+    letter-spacing: .2em;
+    padding: calc(.5em + 1vmax) calc(1.5em + 1vmax);
+    text-transform: uppercase;
+    color: #E9E7DA;
+    font-family: 'Lato', sans-serif;
+    border-color: #CDA34F !important;
+    display: inline-block;
+    margin-bottom: calc(1em + 1vmax);
+}
+.searchMenu:hover{
+    color:#CDA34F !important;
+}
+
+.admin{
+    color:#CDA34F;
+}
+.admin a{
+    color:hsla(0,0%,100%,.7);
+    padding-left: .5vmax;
+}
+.admin a:hover{
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------
+                    ABOUT/CONTACT STYLE
+----------------------------------------------------- */
+p.infor{
+    color: #E9E7DA;
+    font-family: 'Lato', sans-serif;
+    font-size: calc(.5em + .75vmax);
+    text-align: left;
+    letter-spacing: .1em;
+    font-weight: 600;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+p.infor i{
+    padding-right: calc(.25em + 1vmax);
+}

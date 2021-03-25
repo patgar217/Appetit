@@ -1,0 +1,231 @@
+/* ---------------------------------------------------
+                    NAVBAR(A) STYLE
+----------------------------------------------------- */
+.navbar{
+    border-bottom: none !important;
+    padding-bottom: 0px;
+}
+.dropdown-menu{
+    background-color: transparent;
+}
+.dropdown-menu a{
+    color: #E9E7DA;
+    display: block;
+    padding: .5vmax calc(1em + 1vmax);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: calc(.25em + .75vmax);
+}
+.dropdown-menu a:hover{
+    background: transparent  !important;
+    color: #CDA34F !important;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: transparent !important;
+}
+/* ---------------------------------------------------
+                    HERO STYLE
+----------------------------------------------------- */
+h1.hero-heading{
+    font-size: calc(1em + 3vmax) !important;
+}
+.hero-content h1{
+    font-size: calc(1em + 3vmax) !important;
+}
+.preheading span.text-primary{
+    font-size: calc(.2em + .75vmax) !important;
+}
+/* ---------------------------------------------------
+                    SIGN-IN STYLE
+----------------------------------------------------- */
+.text-primary{
+    color: #CDA34F;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: calc(.25em + 1vmax);
+    padding-bottom: 0px;
+}
+.text-primary i{
+    font-size:calc(1.25em + 1vmax);
+    color: #CDA34F;
+    padding-right: calc(.25em + 1vmax);
+}
+.user{
+    margin-top: 0px;
+}
+/* ---------------------------------------------------
+                    SALES STYLE
+----------------------------------------------------- */
+#pid{
+    font-family: 'Playfair Display',sans-serif;
+    font-size: calc(.5em + 1vmax) !important;
+    color: #000000;
+}
+td{
+    font-family: 'Lato', sans-serif;
+    font-size: calc(.25em + 1vmax);
+    color: #000000;
+}
+.view{
+    color: #E9E7DA;
+    background-color: #CDA34F !important;
+    font-size: .75vmax;
+    font-weight: bold;
+    line-height: calc(.5em + .75vmax);
+    letter-spacing: .2em;
+    padding: calc(.2em + .6vmax) calc(1em + .75vmax);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    max-width: max-content;
+}
+.view:hover{
+    background-color: #E9E7DA !important;
+    color: #CDA34F;
+    font-weight: bolder;
+    border-color: #CDA34F !important;
+}
+/* ---------------------------------------------------
+                SALES-MODAL STYLE
+----------------------------------------------------- */
+.order-summary-item{
+    margin: 0px !important;
+    padding: .25vmax 0px .25vmax 0px !important;
+}
+.des span.text-muted{
+    padding-right:  calc(.25em + .75vmax);
+}
+h6.text-uppercase.mb-0{
+    font-size:calc(1em + 1vmax);
+}
+.col-6.des{
+    font-size: 1.2vmax;
+}
+.cart-header .row .col-6{
+    font-size: calc(.25em + 1vmax);
+}
+/* ---------------------------------------------------
+                    PRODUCT STYLE
+----------------------------------------------------- */
+.product_item{
+    padding-bottom: 1vmax;
+}
+span.product_name{
+    color: #000000 !important;
+    font-size: calc(.2em + .75vmax);
+    margin-right: .5vmax;
+}
+.edit, .del{
+    color: gray;
+    font-size: calc(.25em + 1vmax);
+    padding: 0px;
+    margin: 0px;
+}
+.edit:hover, .del:hover{
+    color: black;
+}
+.catList{
+    background-color: #CDA34F;
+    font-size: .75vmax;
+    color: #E9E7DA;
+    font-weight: 700;
+    line-height: calc(.5em + .75vmax);
+    letter-spacing: .2em;
+    padding: calc(.2em + .6vmax) calc(1em + .75vmax);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    max-width: max-content;
+}
+.catList:hover{
+    color: #E9E7DA;
+}
+.catList:active{
+    color: #E9E7DA;
+}
+option{
+    background-color: #CDA34F;
+    font-size: .75vmax;
+    color: #E9E7DA;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.add{
+    background-color: #f5f5f5;
+    font-size: .75vmax;
+    color: #CDA34F;
+    border-color: #CDA34F;
+    font-weight: 700;
+    line-height: calc(.5em + .75vmax);
+    letter-spacing: .2em;
+    padding: calc(.2em + .6vmax) calc(1em + .75vmax);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    max-width: max-content;
+}
+.add:hover{
+    color: #000000;
+    border-color: #000000;
+}
+/* ---------------------------------------------------
+                PRODUCT MODALS STYLE
+----------------------------------------------------- */
+.control-label{
+    font-size:calc(.25em + .75vmax);
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+}
+.form-control option{
+    background-color: #f5f5f5;
+    color: #000000;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: calc(.25em + .75vmax);
+    font-family: 'Lato', sans-serif;
+}
+.modal-footer .success{
+    margin: 0px;
+}
+.modal-footer .def{
+    margin: 0px;
+}
+.photo{
+    font-size: calc(.25em + .75vmax);
+    align-self: center;
+}
+img.img-fluid{
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 70vh;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+}
+.products-grid{
+    margin-left: calc(.75em + 1vmax);
+    margin-right: calc(.75em + 1vmax);
+}
+.cat-name{
+    color: #000000 !important;
+    margin-right: .5vmax;
+    font-family: 'Lato',serif;
+    font-weight: 1000;
+    font-size: calc(.7em + .75vmax);
+    line-height: 1.42857;
+}
+.cat-name:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.buttons{
+    position: relative;
+    float: right;
+    top: -30px;
+}

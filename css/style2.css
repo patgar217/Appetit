@@ -1,0 +1,355 @@
+/* ---------------------------------------------------
+                    BODY STYLE
+----------------------------------------------------- */
+body{
+    background: #F5F5F5 !important;
+}
+
+/* ---------------------------------------------------
+                    HERO-CONTENT STYLE
+----------------------------------------------------- */
+.hero-content{
+    background-size: cover;
+    background-position: center;
+    height: 50vmin;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+    margin-bottom: calc(.25em + 1vmax);
+    border-bottom: 5px solid #CDA34F;
+}
+.hero-content:before{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .6;
+}
+.hero-heading{
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #E9E7DA;
+    margin-bottom: .25vmax;
+    font-size: calc(1em + 3vmax) !important;;
+    font-weight: 700 !important;;
+}
+.hero-content .container{
+    margin-top: calc(2em + 4vmax);
+}
+.lead{
+    font-size: calc(.2em + 1vmax);
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+    color: hsla(0,0%,100%,.7);
+    max-width: calc(1em + 30vmax);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: calc(1.75em + 1vmax);
+}
+
+/* ---------------------------------------------------
+                    MENU-TAB STYLE
+----------------------------------------------------- */
+.container{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+.container .nav li a{
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .2em;
+    font-weight: 600;
+    font-size: calc(.2em + .75vmax);
+}
+.container .nav li a:hover{
+    color: #CDA34F;
+}
+.container .nav li.active a{
+    background-color: #F5F5F5;
+    transition: all 0.3s;
+    border-bottom: 3px solid #CDA34F;
+}
+
+/* ---------------------------------------------------
+                    PRODUCT STYLE
+----------------------------------------------------- */
+.product_img{
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    display: flex;
+    height: calc(2em + 6vmax);
+    align-items: center;
+}
+.product_name{
+    font-family: 'Playfair Display',serif;
+    font-weight: 1000;
+    font-size: calc(.2em + 1vmax);
+    line-height: 1.42857;
+}
+.product_price{
+    font-family: 'Playfair Display',serif;
+    font-weight: 700;
+    font-size: calc(.25em + 1vmax);
+    line-height: 1.42857;
+}
+.product_des{
+    font-family: 'Lato',sans-serif;
+    font-size: calc(.25em + .75vmax);
+    font-weight: 400;
+    line-height: 1.7;
+}
+.product_item{
+    margin-bottom: calc(.25em + .75vmax);
+    height: max-content;
+}
+.success{
+    color: #E9E7DA;
+    background-color: #CDA34F !important;
+    font-size: .75vmax;
+    font-weight: bold;
+    line-height: calc(.2em + .75vmax);
+    letter-spacing: .2em;
+    padding: calc(.2em + .6vmax) calc(1em + .75vmax);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-top: calc(.25em + .75vmax);
+    margin-bottom: calc(1.em + 1vmax);
+    max-width: max-content;
+    height: fit-content;
+}
+.success:hover{
+    background-color: #000000 !important;
+    color: #E9E7DA;
+    font-weight: bolder;
+}
+.tab-content{
+    margin-left:  calc(.25em + 4vmax);
+    margin-right: calc(.25em + 4vmax);
+}
+.row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: 0px !important;
+    flex-wrap: wrap;
+}
+/* ---------------------------------------------------
+                    CART-MODAL STYLE
+----------------------------------------------------- */
+.modal-dialog{
+    background-color: #F5F5F5 !important;
+}
+.modal-header{
+    border-bottom-width: 1px;
+    padding-bottom: 0px;
+}
+.modal-header h1{
+    color: #CDA34F;
+    font-family: 'Lato',serif;
+    font-weight: 700;
+    font-size: calc(.5em + 1vmax);
+}
+.modal-body{
+    padding: 0px;
+    align-items: center;
+}
+.product_image{
+    background-size: cover;
+    background-position: center;
+    height: calc(10em + 30vmin);
+    display: flex;
+    z-index: 2;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.7);
+}
+form{
+    width: inherit;
+}
+form h4.hero-heading{
+    margin-top: 2%;
+    font-size: calc(.25em + 2.75vmax) !important;
+    color: #CDA34F;
+}
+form p.lead{
+    font-size: calc(.4em + 1vmax);
+    color: #E9E7DA;
+    max-width: calc(2em + 45vmax);
+    margin-bottom: calc(1em + 1vmax);
+}
+.quantity{
+    display: block;
+    align-content: center;
+}
+form .quantity h5 label{
+    font-size:calc(.3em + 1vmax);
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #E9E7DA;
+    
+}
+h5.form-controlq{
+    max-width: fit-content;
+}
+input.form-controlq{
+    height: calc(1.25em + 1vmax);
+}
+/* ---------------------------------------------------
+                    ORDERS STYLE
+----------------------------------------------------- */
+.ask{
+    font-size: calc(1.25em + 1vmax);
+    line-height: 1.7;
+    font-weight: 700;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #CDA34F;
+}
+.cart-header{
+    color: #CDA34F;
+    font-size: calc(.7em + 1vmax) !important;
+    font-family: 'Lato', sans-serif !important;
+    text-transform: uppercase;
+}
+.cart-item{
+    margin-top: 0px;
+    margin-bottom:  1vmax;
+}
+span.glyphicon{
+    color: #CDA34F;
+    font-size: calc(.25em + 1vmax);
+    font-weight: 300;
+    align-self: center;
+}
+.def{
+    color: #CDA34F;
+    font-size: .75vmax;
+    font-weight: bold;
+    line-height: calc(.5em + .75vmax);
+    letter-spacing: .2em;
+    padding: calc(.2em + .5vmax) calc(1em + .75vmax);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-top: calc(.25em + 1vmax);
+    margin-bottom: calc(1.25em + 1vmax);
+    border-color: #CDA34F !important;
+    max-width: max-content;
+}
+.def:hover{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    border-color: #000000 !important;
+}
+.block-header h6{
+    font-family: 'Playfair Display', sans-serif;
+    color: #000000;
+    font-size:calc(1.5em + 1vmax);
+}
+.order-summary-item{
+    font-family: 'Lato', sans-serif;
+    font-size:calc(.25em + 1vmax);
+    font-weight: lighter;
+    margin: calc(1.25em + 1vmax) 0px;
+    text-align: right;
+}
+.des{
+    text-align: left;
+}
+.total{
+    font-weight:700;
+    font-size: calc(.5em + 1vmax);
+}
+/* ---------------------------------------------------
+                    CHECKOUT STYLE
+----------------------------------------------------- */
+.checkout{
+    margin-left: calc(1.25em + 1vmax);
+    margin-right: calc(1.25em + 1vmax);
+}
+.form-label{
+    margin-top: 1vmax;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: calc(.25em + 1vmax);
+    font-weight: 700;
+    color: #000;
+}
+.form-control{
+    font-size: 1vmax;
+    font-family: 'Lato', sans-serif;
+}
+.form-rcontrol{
+    font-size: calc(.25em + 1vmax);
+    font-family: 'Lato', sans-serif;
+    padding-right: calc(.75em + 1vmax);
+    padding-left: calc(.2em + .75vmax);
+}
+.terms{
+    font-size: calc(.25em + .75vmax);
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+.terms a{
+    color: #CDA34F;
+    font-weight: bold;
+}
+.place{
+    color: #E9E7DA;
+    background-color: #CDA34F !important;
+    font-size: .75vmax;
+    font-weight: bold;
+    letter-spacing: .2em;
+    padding: calc(.2em + .5vmax) calc(1em + .75vmax);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+}
+.place:hover{
+    background-color: #000000 !important;
+    color: #E9E7DA;
+    font-weight: bolder;
+}
+.cancel{
+    color:  #CDA34F;
+    font-size: .75vmax;
+    font-weight: bold;
+    line-height: calc(.5em + .75vmax);
+    letter-spacing: .2em;
+    padding: calc(.2em + .5vmax) calc(1em + .75vmax);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-top: calc(.25em + 1vmax);
+    margin-bottom: calc(1.25em + 1vmax);
+    border-color: #CDA34F !important;
+}
+.cancel:hover{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    border-color: #000000 !important;
+}
